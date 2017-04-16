@@ -3,7 +3,8 @@ A repository of CSS themes for Harmony
 
 ## Install a theme
 
-**Auto-install**: Open Harmony's settings, and simply copy-paste the .css file url in Harmony then hit *install*. 
+**Auto-install**: Open Harmony's settings, and simply copy-paste the raw .css file url in Harmony then hit *install*. 
+For example `https://raw.githubusercontent.com/vincelwt/harmony-themes/master/dark.css`
 
 **Manual install**: Simply put the .css in:
 - `%APPDATA%/Harmony/Themes/` on Windows
