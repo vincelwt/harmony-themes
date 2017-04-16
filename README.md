@@ -22,7 +22,7 @@ I recommend you to use `dark.css` as a base to create your theme.
 
 You can use the developer tools to help make your theme, enable it with `Ctrl+Alt+i` .
 
-** Please avoid the use of !important **
+**Please avoid the use of !important**
 
 Need help building a theme? I'll help you `vince@getharmony.xyz`
 
