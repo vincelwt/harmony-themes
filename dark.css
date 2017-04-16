@@ -1,0 +1,156 @@
+window,
+#sidebar,
+#header,
+#footer,
+#trackList,
+#trackList tbody,
+#specialViewTracksContainer  {
+	background: #444;	
+}
+
+#header {
+	border-bottom: solid 1px #3d3d3d;
+}
+
+#footer {
+	border-top: solid 1px #3d3d3d;
+}
+
+#player-cover {
+	border: solid 1px #777;
+}
+
+#player-title {
+	color: #ddd;
+}
+
+#player-artist,
+#player-timeleft {
+	color: #aaa;
+}
+
+#player-controls i {
+	color: #ddd;
+}
+
+#player_favorite.active .icon{
+	color: #3a9aff !important;
+}
+
+#player-progress {
+	background: #555;
+}
+
+#player-progress #player-buffer-bar {
+	background: #777;
+}
+
+#player-progress #player-progress-bar {
+	background: #ddd;
+}
+
+.searchBar .form-control {
+	color: #eee;
+	background: #666;
+	border: 1px solid #3d3d3d;
+}
+
+/************************/
+/****** sidebar *********/
+/************************/
+
+#sidebar {
+	border-right: solid 1px #424242;
+}
+
+#sidebar h5 {
+	color: #c0c0c0;
+}
+
+#sidebar div:not(.message) > span {
+	color: #d0d0d0;
+}
+
+#sidebar .active { 
+	background: #666;
+}
+
+#icon.icon-play.playing {
+	color: #65b0ff;
+}
+
+/************************/
+/*** The SpecialView ****/
+/************************/
+
+#specialViewHeader {
+	color: #fff;
+	background: #444;
+}
+
+/************************/
+/**** The tracklist *****/
+/************************/
+
+th {
+	border-right: 1px solid #555;
+	border-bottom: 1px solid #555;
+}
+
+tr {
+	background: #444;
+	color: #bbb;
+}
+
+tr:nth-child(even) {
+	background: #4D4D4D;
+}
+
+/*** When a track is selected ***/
+
+.selected {
+	color: #fff !important;
+	background: #aaaaaa !important;
+}
+
+
+/** The footer buttons ***/
+.footer-btn {
+	color: #aaa;
+}
+
+.footer-btn svg {
+	fill: #aaa;
+}
+
+.footer-btn.active {
+	color: #3a9aff;
+}
+
+.footer-btn.active svg{
+	fill: #3a9aff;
+}
+
+/************************/
+/****** Scrollbar *******/
+/************************/
+
+::-webkit-scrollbar {
+	width: 7px;
+	background: #4d4d4d;
+}
+
+::-webkit-scrollbar:hover {
+	background: rgba(0, 0, 0, 0.09);
+}
+
+::-webkit-scrollbar-thumb {
+	background: #666;
+	background-clip: padding-box;
+	border: 1px solid #444;
+	min-height: 10px;
+}
+
+::-webkit-scrollbar-thumb:active {
+	background: rgba(0,0,0,0.61);
+}
