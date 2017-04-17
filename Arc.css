@@ -1,40 +1,45 @@
 window,
 #sidebar,
-#header,
-#footer,
 #trackList,
 #trackList tbody,
+#specialViewHeader,
 #specialViewTracksContainer  {
-	background: #444;	
+	background: #3e424d;	
+}
+
+#header,
+#footer {
+	background: #2f343f; 
 }
 
 #header {
-	border-bottom: solid 1px #3d3d3d;
+	border-bottom: solid 1px #383c4a;
+	box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.90);
 }
 
 #footer {
-	border-top: solid 1px #3d3d3d;
+	border-top: solid 1px #383c4a;
 }
 
 #player-cover {
-	border: solid 1px #777;
+	border: solid 1px #2f343f;
 }
 
 #player-title {
-	color: #ddd;
+	color: #f5f6f7;
 }
 
 #player-artist,
 #player-timeleft {
-	color: #aaa;
+	color: #f5f6f7;
 }
 
 #player-controls i {
-	color: #ddd;
+	color: #f5f6f7;
 }
 
 #player_favorite.active .icon{
-	color: #3a9aff !important;
+	color: #3a9aff;
 }
 
 #player-progress {
@@ -42,20 +47,20 @@ window,
 }
 
 #player-progress #player-buffer-bar {
-	background: #777;
+	background: #7a8290;
 }
 
 #player-progress #player-progress-bar {
-	background: #ddd;
+	background: #5294e2;
 }
 
 #searchBar { /** For the search icon **/
-	color: #eee;
+	color: #f5f6f7;
 }
 
 #search {
-	color: #eee;
-	background: #666;
+	color: #f5f6f7;
+	background: #404552;
 	border: 1px solid #3d3d3d;
 }
 
@@ -63,21 +68,20 @@ window,
 /****** sidebar *********/
 /************************/
 
-.nav-group-title { 
+.nav-group-title {
 	color: #c0c0c0;
 }
 
 .nav-group-item {
-	color: #d0d0d0;
+	color: #f5f6f7;
 }
 
-.nav-group-item.active { 
-	background: #999;
-	color: #444;
+.nav-group-item.active {
+	background: #5294e2;
 }
 
 .icon.icon-play.playing {
-	color: #65b0ff;
+	color: #f5f6f7;
 }
 
 /************************/
@@ -86,7 +90,6 @@ window,
 
 #specialViewHeader {
 	color: #fff;
-	background: #444;
 }
 
 /************************/
@@ -94,21 +97,22 @@ window,
 /************************/
 
 #trackList {
-	border-left: solid 1px #424242;
+	border-left: 1px solid #3e424d;
 }
 
 th {
-	border-right: 1px solid #444;
-	border-bottom: 1px solid #444;
+	background: #383c4a;
+    border-right: 1px solid #404552;
+    border-bottom: 1px solid #404552;
 }
 
 tr {
-	background: #444;
+	background: #404552;
 	color: #bbb;
 }
 
-th, tr:nth-child(even) {
-	background: #4D4D4D;
+tr:nth-child(even) {
+	background: #383c4a;
 }
 
 /*** Selected track ***/
@@ -116,11 +120,10 @@ th, tr:nth-child(even) {
 tr:active,
 tr.selected {
 	color: #fff;
-	background: #aaaaaa;
+	background: #5294e2;
 }
 
-
-/** The footer buttons ***/
+/** Footer ***/
 .footer-btn {
 	color: #aaa;
 }
@@ -130,12 +133,13 @@ tr.selected {
 }
 
 .footer-btn.active {
-	color: #3a9aff;
+	color: #5294e2;
 }
 
 .footer-btn.active svg{
-	fill: #3a9aff;
+	fill: #5294e2;
 }
+
 
 /************************/
 /****** Scrollbar *******/
