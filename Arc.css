@@ -119,7 +119,8 @@ tr:nth-child(even) {
 /*** Selected track ***/
 
 tr:active,
-tr.selected {
+tr.selected,
+#coverView > div.selected {
 	color: #fff;
 	background: #5294e2;
 }
