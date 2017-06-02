@@ -106,7 +106,8 @@ th {
     border-bottom: 1px solid #404552;
 }
 
-tr {
+tr,
+#coverView > * {
 	background: #404552;
 	color: #bbb;
 }
