@@ -1,0 +1,142 @@
+.tracksContainer,
+.listFilter,
+.listTrack:nth-child(even),
+.rectInput,
+.tabItem,
+#specialViewHeader {
+	background: #383c4a;
+}
+
+#header,
+#footer,
+#settings {
+	background: #2f343f; 
+	border-color: #383c4a;
+}
+
+.rectInput {
+	border-color: #666;
+}
+
+#specialViewHeader,
+#playerControls .icon,
+#settings,
+.rectInput, 
+.rectInput ~ .icon,
+.tracksContainer,
+#playerMetadatas > * {
+	color: #f5f6f7;
+}
+
+#playerTrackCover {
+	border-color: #777;
+}
+
+#playerFavBtn.active .icon{
+	color: #3a9aff !important;
+}
+
+#playerProgress {
+	background: #555;
+}
+
+#playerBufferBar {
+	background: #777;
+}
+
+#playerProgress #playerProgressBar {
+	background: #ddd;
+}
+
+/************************/
+/****** sidebar *********/
+/************************/
+::-webkit-input-placeholder,
+.serviceTitle,
+.playlistTitle .icon { 
+	color: #c0c0c0;
+}
+
+.playlistTitle {
+	color: #f5f6f7;
+}
+
+.playlistTitle.active,
+.playlistTitle.active .icon {
+	background: #5294e2;
+}
+
+.icon.icon-play.playing {
+	color: #f5f6f7;
+}
+
+/************************/
+/**** The tracklist *****/
+/************************/
+
+.listFilter {
+	border-color: #404552;
+}
+
+.listTrack,
+.listFilter,
+.coverElement {
+	color: #bbb;
+}
+
+#sidebar,
+.listTrack,
+.coverElement {
+	background: #404552;
+}
+
+
+/*** Selected track ***/
+
+.listTrack.selected,
+.coverElement.selected {
+	color: #fff;
+	background: #5294e2;
+}
+
+
+/** The footer buttons ***/
+.footerBtn {
+	color: #aaa;
+	fill: #aaa;
+}
+
+.footerBtn.active {
+	color: #5294e2;
+	fill: #5294e2;
+}
+
+/*** SETTINGS ***/
+
+#settings a {
+	color: #5eb2ff;
+}
+
+/************************/
+/****** Scrollbar *******/
+/************************/
+
+::-webkit-scrollbar {
+	width: 7px;
+	background: #4d4d4d;
+}
+
+::-webkit-scrollbar:hover {
+	background: rgba(0, 0, 0, 0.09);
+}
+
+::-webkit-scrollbar-thumb {
+	background: #666;
+	background-clip: padding-box;
+	border: 1px solid #444;
+	min-height: 10px;
+}
+
+::-webkit-scrollbar-thumb:active {
+	background: rgba(0,0,0,0.61);
+}
