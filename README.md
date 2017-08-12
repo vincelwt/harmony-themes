@@ -1,6 +1,8 @@
 # harmony-themes
 A repository of CSS themes for Harmony
 
+Documentation for creating themes is available [here](https://getharmony.xyz/docs).
+
 ## Install a theme
 
 **Auto-install**: Open Harmony's settings, and simply copy-paste the raw .css file url in Harmony then hit *install*. 
