@@ -1,77 +1,82 @@
-window,
-#sidebar,
 #header,
 #footer,
-#trackList,
-#trackList tbody,
-#specialViewTracksContainer  {
+.tracksContainer,
+.listFilter,
+.listTrack:nth-child(even),
+.coverElement,
+.rectInput,
+.tabItem,
+#specialViewHeader {
 	background: #444;	
 }
 
-#header {
-	border-bottom: solid 1px #3d3d3d;
+#sidebar {
+	background: #4c4c4c;
 }
 
-#footer {
-	border-top: solid 1px #3d3d3d;
+#header,
+#footer,
+#settings {
+	border-color: #3d3d3d;
 }
 
-#player-cover {
-	border: solid 1px #777;
+.rectInput {
+	border-color: #666;
 }
 
-#player-title {
+#playerControls .icon,
+#settings,
+.rectInput, 
+.rectInput ~ .icon,
+.tracksContainer,
+.playlistTitle .icon {
 	color: #ddd;
 }
 
-#player-artist,
-#player-timeleft {
+::-webkit-input-placeholder,
+#playerMetadatas > *,
+.playlistTitle .icon {
 	color: #aaa;
 }
 
-#player-controls i {
-	color: #ddd;
+#settings {
+	background: #333;
 }
 
-#player_favorite.active .icon{
+#playerTrackCover {
+	border-color: #777;
+}
+
+#playerFavBtn.active .icon{
 	color: #3a9aff !important;
 }
 
-#player-progress {
+#playerProgress {
 	background: #555;
 }
 
-#player-progress #player-buffer-bar {
+#playerBufferBar {
 	background: #777;
 }
 
-#player-progress #player-progress-bar {
+#playerProgressBar {
 	background: #ddd;
-}
-
-#searchBar { /** For the search icon **/
-	color: #eee;
-}
-
-#search {
-	color: #eee;
-	background: #666;
-	border: 1px solid #3d3d3d;
 }
 
 /************************/
 /****** sidebar *********/
 /************************/
 
-.nav-group-title { 
+.serviceTitle { 
 	color: #c0c0c0;
 }
 
-.nav-group-item {
+.playlistTitle {
 	color: #d0d0d0;
 }
 
-.nav-group-item.active { 
+.playlistTitle.active,
+.playlistTitle.active .icon { 
 	background: #999;
 	color: #444;
 }
@@ -86,55 +91,51 @@ window,
 
 #specialViewHeader {
 	color: #fff;
-	background: #444;
 }
 
 /************************/
 /**** The tracklist *****/
 /************************/
 
-#trackList {
-	border-left: solid 1px #424242;
+.listFilter {
+	border-color: #555;
 }
 
-th {
-	border-right: 1px solid #444;
-	border-bottom: 1px solid #444;
-}
-
-tr {
-	background: #444;
+.listTrack,
+.coverElement,
+.listFilter {
 	color: #bbb;
 }
 
-th, tr:nth-child(even) {
+.listTrack,
+.coverElement {
 	background: #4D4D4D;
 }
 
 /*** Selected track ***/
 
-tr:active,
-tr.selected {
+.listTrack.selected,
+.coverElement.selected {
 	color: #fff;
-	background: #aaaaaa;
+	background: #aaa;
 }
 
 
 /** The footer buttons ***/
-.footer-btn {
+.footerBtn {
 	color: #aaa;
-}
-
-.footer-btn svg {
 	fill: #aaa;
 }
 
-.footer-btn.active {
+.footerBtn.active {
 	color: #3a9aff;
+	fill: #3a9aff;
 }
 
-.footer-btn.active svg{
-	fill: #3a9aff;
+/*** SETTINGS ***/
+
+#settings a {
+	color: #5eb2ff;
 }
 
 /************************/
