@@ -1,0 +1,156 @@
+/**
+* "Marine" - A very-bloo theme for Harmony player.
+* By Tom 'Mousey' Lovelady <tom@llamatorials.com> <@dlmousey>
+* Because Blue is the best colour, We all know this, The debate can stop now.
+*
+* Credits:
+* Harmony Player, Base theme & Theme Docs - @vincenlwt (https://github.com/vincelwt)
+*/
+
+header.toolbar.toolbar-header {
+    background: #1F89C6;
+    border-bottom: none;
+}
+
+#playerPrevBtn > .icon, #playerPlaypauseBtn > .icon, #playerNextBtn > .icon, #playerFavBtn > .icon {
+    color: #D9DCD6;
+    transition: all 0.25s ease-in-out;
+}
+
+#playerPrevBtn > .icon:hover, #playerPlaypauseBtn > .icon:hover, #playerNextBtn > .icon:hover {
+    color: #0BBA8B;
+}
+
+#playerFavBtn > .icon:hover {
+    color: pink;
+}
+
+#playerFavBtn.active > .icon {
+    color: pink;
+}
+
+#playerMetadatas { 
+    background: #1F89C6;
+}
+
+#playerTrackArtist, #playerTrackTitle, #playerTime, #playerMoreBtn {
+    color: #D9DCD6;
+}
+
+#playerMoreBtn {
+    top: -2px;
+    transition: all 0.25s ease-in-out
+}
+
+#playerMoreBtn:hover {
+    color: #0BBA8B;
+}
+
+#playerProgress > #playerProgressContainer #playerProgressBar {
+    background: #212922;
+}
+
+#playerProgress > #playerProgressContainer #playerBufferBar {
+    background: #D9DCD6;
+}
+
+#sidebar {
+    background: #155b84;
+}
+
+#sidebar .nav-group .serviceTitle {
+    color: #FFF;
+}
+#sidebar .nav-group span, #sidebar .nav-group .serviceTitle {
+    background: #155b84;
+    color: #FFF;
+}
+
+#sidebar .nav-group div div {
+    border-bottom: 2px solid #1F89C6;
+    padding-bottom: 5px;
+}
+
+#sidebar .nav-group span {
+    transition: all 0.25s ease-in-out;
+}
+
+#sidebar .nav-group span.active {
+    border-left: 5px solid#1F89C6;
+    background: #186b9a;
+    padding: 5px 0px 5px 20px;
+}
+
+#sidebar .nav-group span:hover {
+    background: #1f89c7;
+    border-color: #186b9a;
+}
+
+#sidebar .nav-group span:hover > .icon {
+    background: #1f89c7;
+    color: #FFF;
+}
+
+#sidebar .nav-group span.active:hover {
+    background: #1f89c7;
+    border-color: #186b9a;
+}
+
+#sidebar .nav-group span.active:hover > .icon {
+    background: #1f89c7;
+    color: #FFF;
+}
+
+#sidebar .nav-group span.active > .icon {
+    background: #186b9a;
+}
+
+#trackListTable {
+    border-left: none;
+}
+
+#trackListTable thead tr {
+    background: #186b9a;
+    border-color: #1F89C6;
+}
+
+#trackListTable thead tr th {
+    color: #FFF;
+    border-color: #1F89C6;    
+    font-size: 14px;
+    transition: all 0.25s ease-in-out;
+}
+
+#track_body tr td {
+    color: #FFF;
+    cursor: pointer;
+}
+
+#trackListTable thead tr th:hover {
+    background: #1F89C6;
+}
+
+#track_body tr:nth-child(even) {
+    background: #186b9a;
+}
+
+#track_body tr:nth-child(odd) {
+    background: #155b84;
+}
+
+#track_body tr:nth-child(even):hover, #track_body tr:nth-child(odd):hover {
+    background: #2298dd;
+}
+
+#track_body tr:nth-child(even).selected, #track_body tr:nth-child(even).selected {
+    background: #2298dd;
+}
+
+#footer {
+    background: #1F89C6;
+}
+
+#footer > .toolbar-actions span, #footer > .toolbar-actions span > svg {
+    color: #FFF;
+    fill: #FFF;
+}
